@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-body{
+    width: 100%;
+    text-align: center;
+    
+    background-color: black;
+    height: auto;
+    min-height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-body h1{
+    padding-top: 15%;
+    padding-bottom: 20px;
+    font-size: 60px;
+    color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+  
 }
-
-.App-link {
-  color: #61dafb;
+.first-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-row input{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+}
+.first-row select{
+    width: 150px;
+    font-size: 20px;
+}
+.first-row p{
+    font-size: 20px;
+}
+.fa-solid{
+    color: white;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.show{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    border: white solid 2px;
+    background-color: aliceblue;
+}
+.second-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.second-row  button{
+    width: 220px;
+    height: 35px;
+    font-size: 25px;
+    margin-right: 20px;
 }
