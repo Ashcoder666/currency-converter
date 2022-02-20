@@ -69,3 +69,45 @@
     font-size: 25px;
     margin-right: 20px;
 }
+
+@media (max-width:480px) {
+    .main-body{
+        min-height: 150vh;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        }
+        .first-row{
+            display: flex;
+        
+            width: 90%;
+            justify-content: center;
+            margin-bottom: 30px;
+            margin: 15px;
+            margin-top: 20%;
+        }
+        .first-row input{
+            width: 150px;
+            height: 30px;
+            font-size: 25px;
+        }
+        .second-row{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+        }
+        .second-row  button{
+            width: 70%;
+            height: 35px;
+            font-size: 25px;
+            margin: 10px auto 10px auto;
+        }
+        .show{
+            width: 70%;
+            margin: 10px auto 10px auto;
+        }
+}
